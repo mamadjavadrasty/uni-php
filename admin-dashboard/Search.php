@@ -23,7 +23,7 @@ class Search
     public function search($request)
     {
         //sql for search
-        $sql = 'SELECT * FROM `student` WHERE `id` > 0 ';
+        $sql = 'SELECT * FROM `students` WHERE `id` > 0 ';
 
         if (!empty($request['first_name'])){
             $sql .= "and `first_name` LIKE '" . '%' . $request['first_name'] . '%' . "' ";

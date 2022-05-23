@@ -26,7 +26,7 @@ class Register
         $this->validate($request);
         //customize and create data
         $request['request_dormitory'] = isset($request['request_dormitory']) ? 1 : 0;
-        $create = $this->db->insert('student',array_keys($request),$request);
+        $create = $this->db->insert('students',array_keys($request),$request);
         //check if created
        if ($create){
            setResponse(['success'=>['message'=>'ثبت نام شما با موفقیت انجام شد']]);
