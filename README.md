@@ -3,5 +3,5 @@
 -----------------------------------------
 php -S localhost:8000
 -----------------------------------------
-صحفه ثبت نام : http://localhost:8000/registe
+صحفه ثبت نام : http://localhost:8000/register
 صحفه جستجو : http://localhost:8000/search
